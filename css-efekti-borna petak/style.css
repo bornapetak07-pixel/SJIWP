@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    text-align: center;
+    color: white;
+}
+
+header {
+    padding: 30px;
+}
+
+.galerija {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin: 40px;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    transition: all 0.4s ease;
+}
+
+
+.fotografija:hover {
+    transform: rotate(10deg);
+}
+
+
+.gaming:hover {
+    transform: scale(1.2);
+}
+
+
+.glazba:hover {
+    background-color: black;
+    color: white;
+    opacity: 0.8;
+}
+
+
+.sport:hover {
+    transform: translateY(-20px);
+}
+
+
+.cool-gumb {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 25px;
+    background-color: #ffcc00;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.cool-gumb:hover {
+    background-color: #ffaa00;
+    transform: scale(1.1);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+}
